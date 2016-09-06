@@ -2,6 +2,9 @@
 #include "ui_mainwindow.h"
 #include <QMessageBox>
 #include "newworddialog.h"
+#include "settingsdialog.h"
+#include "searchdialog.h"
+#include "choosevocabdialog.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -35,5 +38,38 @@ void MainWindow::on_actionNew_Word_triggered()
     {
         ui->listWidget->addItem(newWordDlg.getWord() + "=" + newWordDlg.getMeaning());
     }
-        ;
+
+}
+
+void MainWindow::on_actionPreferences_triggered()
+{
+    SettingsDialog settingsDialog;
+    settingsDialog.exec();
+}
+
+void MainWindow::on_actionSearch_triggered()
+{
+    SearchDialog searchDlg;
+    searchDlg.show();
+}
+
+void MainWindow::on_actionChooseVocab_triggered()
+{
+    ChooseVocabDialog chooseVocabDlg;
+    chooseVocabDlg.exec();
+}
+
+void MainWindow::on_actionExit_triggered()
+{
+    int button = QMessageBox::question(this, "Kérdés", "Valóban kilép a programból?",
+                                       QMessageBox::Yes, QMessageBox::No);
+    if (button == QMessageBox::Yes)
+    {
+            QApplication::quit();
+    }
+}
+
+void MainWindow::on_actionMinimize_triggered()
+{
+    QWidget::setWindowState(Qt::WindowMinimized);
 }

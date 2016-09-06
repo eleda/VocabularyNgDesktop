@@ -22,6 +22,16 @@ private slots:
 
     void on_actionNew_Word_triggered();
 
+    void on_actionPreferences_triggered();
+
+    void on_actionSearch_triggered();
+
+    void on_actionChooseVocab_triggered();
+
+    void on_actionExit_triggered();
+
+    void on_actionMinimize_triggered();
+
 private:
     Ui::MainWindow *ui;
 };

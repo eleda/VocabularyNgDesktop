@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/images/toolbar">
+        <file>img/about1.png</file>
+        <file>img/edit.png</file>
+        <file>img/exit.png</file>
+        <file>img/minus.png</file>
+        <file>img/newfile.png</file>
+        <file>img/openfile.png</file>
+        <file>img/plus.png</file>
+        <file>img/savefile.png</file>
+        <file>img/search.png</file>
+        <file>img/searchwindow.png</file>
+    </qresource>
+</RCC>

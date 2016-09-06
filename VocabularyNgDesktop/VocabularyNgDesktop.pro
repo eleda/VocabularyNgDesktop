@@ -14,10 +14,25 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    newworddialog.cpp
+    newworddialog.cpp \
+    searchdialog.cpp \
+    settingsdialog.cpp \
+    choosevocabdialog.cpp
 
 HEADERS  += mainwindow.h \
-    newworddialog.h
+    newworddialog.h \
+    searchdialog.h \
+    settingsdialog.h \
+    choosevocabdialog.h
 
 FORMS    += mainwindow.ui \
-    newworddialog.ui
+    newworddialog.ui \
+    modifyvocablistdialog.ui \
+    newvocabdialog.ui \
+    rewriteworddialog.ui \
+    searchdialog.ui \
+    settingsdialog.ui \
+    choosevocabdialog.ui
+
+RESOURCES += \
+    icons.qrc
