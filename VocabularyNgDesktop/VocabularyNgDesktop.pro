@@ -13,8 +13,11 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    newworddialog.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    newworddialog.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    newworddialog.ui
