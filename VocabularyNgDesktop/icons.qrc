@@ -11,4 +11,7 @@
         <file>img/search.png</file>
         <file>img/searchwindow.png</file>
     </qresource>
+    <qresource prefix="/images/appicon">
+        <file>img/InfraVocIcon3.png</file>
+    </qresource>
 </RCC>

@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QListWidgetItem>
 
 namespace Ui {
 class MainWindow;
@@ -31,6 +32,22 @@ private slots:
     void on_actionExit_triggered();
 
     void on_actionMinimize_triggered();
+
+    void on_actionRename_triggered();
+
+    void on_actionClear_triggered();
+
+    void on_actionClearAll_triggered();
+
+    void on_actionSave_triggered();
+
+    void on_actionRefresh_triggered();
+
+    void on_listWidget_itemDoubleClicked(QListWidgetItem *item);
+
+    void on_actionNewWord_triggered();
+
+    void on_actionAboutQt_triggered();
 
 private:
     Ui::MainWindow *ui;

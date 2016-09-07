@@ -6,12 +6,16 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>587</width>
-    <height>386</height>
+    <width>534</width>
+    <height>349</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Vocabulary</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="icons.qrc">
+    <normaloff>:/images/appicon/img/InfraVocIcon3.png</normaloff>:/images/appicon/img/InfraVocIcon3.png</iconset>
   </property>
   <widget class="QWidget" name="centralWidget">
    <property name="sizePolicy">
@@ -54,7 +58,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>587</width>
+     <width>534</width>
      <height>21</height>
     </rect>
    </property>

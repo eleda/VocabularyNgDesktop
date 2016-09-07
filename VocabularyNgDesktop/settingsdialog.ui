@@ -170,6 +170,21 @@
     </widget>
    </widget>
   </widget>
+  <action name="actionSearch_Now">
+   <property name="text">
+    <string>Search Now</string>
+   </property>
+  </action>
+  <action name="actionGo">
+   <property name="text">
+    <string>Go</string>
+   </property>
+  </action>
+  <action name="actionEdit">
+   <property name="text">
+    <string>Edit</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections>

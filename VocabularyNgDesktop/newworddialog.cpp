@@ -6,6 +6,7 @@ NewWordDialog::NewWordDialog(QWidget *parent) :
     ui(new Ui::NewWordDialog)
 {
     ui->setupUi(this);
+    ui->label->setFocus();
 }
 
 NewWordDialog::~NewWordDialog()
